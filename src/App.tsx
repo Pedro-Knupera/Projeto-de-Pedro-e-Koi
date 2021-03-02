@@ -5,7 +5,7 @@ import {MenuFunção} from './components/paginas_menus/menuComponte'
 function App() {
   return (
     <div className="App">
-      <MenuFunção />
+      <MenuFunção/>
     </div>
   );
 }
