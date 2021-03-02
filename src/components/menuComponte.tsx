@@ -1,5 +1,5 @@
 import styles from '../../styles/menuContainer.module.css'
-import {Chama} from './pagina1';
+import {Chama} from './paginas_menus/pagina1';
 
 export function MenuFunção(){
     
@@ -7,7 +7,9 @@ export function MenuFunção(){
     return(
         
          <div className={styles.menuContainer}>
-           <a href="">{Chama}</a>
+             <header>
+              <a href="">{Chama}</a>
+             </header>
         </div>
     )
 }

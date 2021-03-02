@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles/global.css';
-import {MenuFunção} from './components/paginas_menus/menuComponte'
+import './global.css';
+import {MenuFunção} from './components/menuComponte'
 
 function App() {
   return (
