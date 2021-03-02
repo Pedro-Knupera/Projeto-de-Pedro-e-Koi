@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+    ;
+}
+
+:root{
+    --cabeçario:#37E701;
+    --background:#113706;
+    --text:#F0F8FF;
+}
+
+body{
+    background: var(--background);
+    color: var(--text);
+}
+
+body, input, textarea, button {
+    font: 188 1rem "Inter", sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    color: inherit;
+    text-decoration:none;
+}
